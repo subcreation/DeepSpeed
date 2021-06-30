@@ -291,14 +291,27 @@ img {
     text-align: center;
     }
     
-    .nav-link {
-    display: none;
-    margin-left: 8px;
-    font-family: Barlow;
-    color: hsla(0, 0%, 100%, 0.75);
-    font-size: 16px;
-    font-weight: 600;
-    }
+.nav-link {
+  display: none;
+  margin-left: 8px;
+  font-family: Barlow;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#main {
+  margin-top: 100px;
+}
+
+.page__content {
+  margin-left: 60px !important;
+  margin-right: 60px !important;
+}
+
+.sidebar__right {
+  width: 240px;
+}
 
 .site-title {
   display: -webkit-box;

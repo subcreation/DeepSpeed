@@ -304,13 +304,23 @@ img {
   margin-top: 100px;
 }
 
+.page__inner-wrap {
+  width: 130% !important;
+}
+
 .page__content {
   margin-left: 60px !important;
-  margin-right: 60px !important;
+  margin-right: -240px !important;
+}
+
+.archive {
+  padding-right: 0px;
+  padding-left: 60px;
 }
 
 .sidebar__right {
-  width: 240px;
+  // width: 240px;
+  display: none;
 }
 
 h2 {

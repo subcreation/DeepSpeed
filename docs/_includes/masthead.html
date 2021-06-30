@@ -1,0 +1,60 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<div data-collapse="medium" data-animation="default" data-duration="5" role="banner" class="nav w-nav">
+  <div class="header-div w-container">
+    <div class="header-brand-div">
+      <a href="#" class="w-nav-brand">
+        <img src="https://uploads-ssl.webflow.com/60afb5d05711b86daadde7ae/60db6cb20645e47f22564124_Deepspeed_header-logo.svg" loading="lazy" width="69" alt="" class="header-logo">
+      </a>
+    </div>
+    <nav role="navigation" class="nav-menu w-nav-menu">
+      <a href="#" class="nav-link-6 w-nav-link" style="max-width: 1250px;">Get Started</a>
+      <a href="#" class="nav-link-5 w-nav-link" style="max-width: 1250px;">News</a>
+      <a href="#" class="nav-link-3 w-nav-link" style="max-width: 1250px;">Tutorials</a>
+      <a href="#" class="nav-link-3 w-nav-link" style="max-width: 1250px;">Docs</a>
+      <a href="#" class="button-2 w-button">We're Hiring</a>
+      <a href="#" class="nav-link-2 w-nav-link" style="max-width: 1250px;">GitHub</a>
+      <a href="#" class="nav-link w-nav-link" style="max-width: 1250px;">Hiring</a>
+    </nav>
+    <div class="menu-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+      <div class="icon w-icon-nav-menu"></div>
+    </div>
+  </div>
+  <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+</div>
+
+<!-- <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
+        {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+          {%- for link in site.data.navigation.main -%}
+            <li class="masthead__menu-item">
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div> -->

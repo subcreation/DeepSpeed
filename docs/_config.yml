@@ -82,6 +82,6 @@ analytics:
     tracking_id: "UA-169781858-1"
 
 timezone: America/Los_Angeles
-breadcrumbs: true
+breadcrumbs: false
 
 press_release_v3: https://www.microsoft.com/en-us/research/blog/deepspeed-extreme-scale-model-training-for-everyone/

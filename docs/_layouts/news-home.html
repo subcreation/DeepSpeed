@@ -12,7 +12,7 @@ layout: archive
 {% endif %}
 
 
-<h2>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
+<!-- <h2>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2> -->
 {% assign news = posts | where: "sneak_preview", "false" %}
 {% for post in news %}
   {% include archive-single.html %}

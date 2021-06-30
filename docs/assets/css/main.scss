@@ -313,6 +313,14 @@ img {
   width: 240px;
 }
 
+h2 {
+  margin-top: 0px;
+}
+
+#page-title {
+  display: none;
+}
+
 .site-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,11 +331,11 @@ img {
   font-size: $type-size-2; // DeepSpeed: increase size
 }
 
-.nav-menu a:hover {
+.nav-menu a:hover, .nav-menu a:visited {
   color: #fff;
 }
 
-.nav-menu a.button-2:hover {
+.nav-menu a.button-2:hover, .nav-menu a.button-2:visited {
   color: #222;
 }
 

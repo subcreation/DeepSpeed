@@ -350,6 +350,125 @@ h2 {
   color: #222;
 }
 
+.section-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #dfdfeb;
+}
+
+.copyright-text-block {
+  margin-top: 60px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#footer {
+  background-color: #dfdfeb;
+  color: #222 !important;
+  padding: 0;
+  margin: 0;
+}
+
+.page__footer footer {
+  clear: none;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+.page__footer {
+  clear: none;
+  float: none;
+  margin: 0;
+}
+
+.page__footer::after {
+  clear: none !important;
+  content: none !important;
+  display: block !important;
+}
+
+
+.footer-grid {
+  display: -ms-grid;
+  display: grid;
+  padding-right: 2vw;
+  padding-bottom: 60px;
+  padding-left: 2vw;
+  justify-items: stretch;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 6vw;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 2.5fr;
+  grid-template-columns: 1fr 1fr 2.5fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.footer-logo {
+  position: static;
+  display: block;
+  overflow: visible;
+  width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  float: none;
+  clear: none;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.paragraph-10 {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.footer-div p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.footer-div img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.footer-div h4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 18px;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 .toc {
   font-family: $sans-serif-narrow;
   color: $gray;

@@ -925,6 +925,9 @@ h2 {
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
   }
+  .w-icon-nav-menu:before{
+    content:"\e602"
+  }
 }
 
 @media screen and (max-width: 767px) {

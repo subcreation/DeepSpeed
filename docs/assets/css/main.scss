@@ -910,7 +910,21 @@ h2 {
     width: 90vw;
     max-width: 270px;
   }
-  .w-nav[data-collapse="medium"] .w-nav-menu{display:none}.w-nav[data-collapse="medium"] .w-nav-button{display:block}
+  .w-nav[data-collapse="medium"] .w-nav-menu{display:none}.w-nav[data-collapse="medium"] .w-nav-button{
+    display:block
+  }
+
+  [class^="w-icon-"],[class*=" w-icon-"]{
+    font-family:'webflow-icons' !important;
+    speak:none;
+    font-style:normal;
+    font-weight:normal;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
 }
 
 @media screen and (max-width: 767px) {
